@@ -1,0 +1,39 @@
+body{
+    background-color: ghostwhite;
+}
+h3,h4,h5{
+    color: pink;
+    text-align: center;
+}
+#special{
+    color: black;
+}
+h1{ 
+    color: brown;
+    background-color: rgb(255, 247, 134);
+}
+footer{ position:fixed; 
+    left:0px; 
+    bottom:0px; 
+    height:60px; 
+    width:100%; 
+    background:grey; 
+}
+img {
+    float: left;   
+    margin-right: 30px; 
+}
+a:link{
+    text-decoration: none;
+    color : black;
+}
+a:visited{
+    text-decoration: none;
+    color : black;
+}
+a:hover { 
+    color: #ee26ab; 
+}
+a:active{
+    text-decoration: none;
+}
