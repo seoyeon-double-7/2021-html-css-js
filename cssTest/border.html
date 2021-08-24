@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <style>
+            body{
+                width: 70%;
+                margin: auto;
+            }
+            p.thick{
+                border-width: thick;
+                border-style: solid;
+                border-color: tomato;
+            }
+            p.medium{
+                border-width: medium;
+                border-style: solid;
+            }
+            p.thin{
+                border-style: solid;
+                border-width: thin ;
+            }
+            p.user{
+                border-style: dotted;
+                border-width: 20px;
+                border-color: violet;
+            }
+            p.round{
+                width: 300px;
+                height: 100px;
+                background-color: palevioletred;
+                border: 4px solid black;
+                border-radius: 10px;
+                box-shadow: 3px 3px 3px gray;
+            }
+        </style>
+    </head>
+    <body>
+        <p style="border-style: none;">none</p>
+        <p style="border-style: dotted;">dotted</p>
+        <p style="border-style: dashed;">dashed</p>
+        <p style="border-style: solid;">solid</p>
+        <p style="border-style: double;">double</p>
+        <p style="border-style: groove;">groove</p>
+        <p style="border-style: ridge;">ridge</p>
+        <p style="border-style: inset;">inset</p>
+        <p style="border-style: outset;">outset</p>
+        <p style="border-style: dashed double groove inset;">사방을 모두 다르게</p>
+        <p class="thick">두꺼운 선</p>
+        <p class="medium">중간 선</p>
+        <p class="thin">얇은 선</p>
+        <p class="user">사용자 지정 선</p>
+        <p class="round">둥근 모서리를 만들어봅시다.</p>
+    </body>
+</html>

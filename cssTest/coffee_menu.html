@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome Web Cafe</title>
+        
+    </head>
+    <style>
+        h1 {    /*h1태그는 블럭단위 */
+            color: brown;
+            background-color: yellow;
+        }
+        body {
+            background-color: beige;
+        }
+        * {
+            color: green;            
+        }
+        #special{
+            color: black;
+        }
+        .type1{
+            color: blueviolet;
+        }
+        p em{
+            color: blueviolet;
+        }
+        p b{
+            color: blueviolet;
+            font-weight: bold;
+        }
+        h3, h4, h5{
+            color: chocolate;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        h1[id="special"]{
+            color: pink;
+        }
+        /* 아래 적용한 것이 위의 것을 덮어쓴다 */
+    </style>
+
+    <body>
+        <h1 id="special">Welcome Web Cafe!!!</h1>
+        <img src="img\coffee.gif" width="50" height="45" alt="카페 웹 이미지">
+        <ul>
+            <li> 로그인 </li>
+            <li><a href="membership.html">회원가입</a></li>
+
+        </ul>
+               
+        <p class="type1">
+            하우스 로스팅 원두의 신선한 커피를 맛보고 싶다면 
+            <em>공인 1급 바리스타</em>가 <b>최고급 원두</b>만을 이용해 커피를 제공합니다.
+        </p>
+
+        <p>
+            <h2 class="type1">메뉴</h2>
+            <!--썸네일-->
+            <a href="americano.html" target="_blank">
+                <img src="img\americano.jpg" width=150 height=150 alt="아메리카노"></a>
+            <a href="cafelatte.html" target="_blank">
+                <img src="img\cafelatte.jpg" width=150 height=150 alt="카페라떼"></a>
+            <a href="capuccino.html" target="_blank">
+                <img src="img\capuccino.jpg" width=150 height=150 alt="카푸치노"></a>
+            <a href="cafemocha.html" target="_blank">
+                <img src="img\cafemocha.jpg" width=150 height=150 alt="카페모카"></a>
+        
+        </p>
+        <footer>
+            <h3>Copyright by Mirim</h3>
+            <h4>2021.01.12</h4>
+            <h5>e-mirim@e-mirim.hs.kr</h5>
+        </footer>
+        
+    </body>
+</html>
