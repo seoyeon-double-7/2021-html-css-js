@@ -1,0 +1,28 @@
+body {
+    width: 500px;
+    margin-left: auto ;
+    margin-right: auto ;
+    background-color: rgb(231, 229, 216);
+}
+section {
+    margin-bottom: 30px;
+}
+
+fieldset {
+    width: 400px;
+}
+
+input {
+    display: inline-block;
+    width: 250px;
+}
+
+.gender {
+    display: inline;
+    width: 50px;
+}
+
+.btn {
+    width: 100px;
+    margin-right: 10px;
+}
